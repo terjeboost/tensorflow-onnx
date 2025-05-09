@@ -19,7 +19,7 @@ CONTRIB_OPS_DOMAIN = "ai.onnx.contrib"
 # The current update policy is that the default should be set to
 # the latest released version as of 18 months ago.
 # Opset 15 was released in ONNX v1.10.0 (Jul, 2021).
-PREFERRED_OPSET = 15
+PREFERRED_OPSET = 14
 
 # Default opset for custom ops
 TENSORFLOW_OPSET = helper.make_opsetid("ai.onnx.converters.tensorflow", 1)
